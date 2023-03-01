@@ -1,0 +1,91 @@
+.fairValue {
+    padding: 30px 25px;
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    width: 100%;
+}
+
+.fairValue .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.fairValue .card-header h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: var(--head-color);
+}
+
+.fairValue .card-body {
+    position: relative;
+}
+
+.fairValue .card-body .max-price {
+    text-align: center;
+}
+
+.fairValue .card-body .max-price h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.fairValue .card-body .max-price span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #615E83;
+}
+
+.fairValue .card-body .price {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: absolute;
+    left: 40%;
+    bottom: -8%;
+}
+
+.fairValue .card-body .price span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #615E83;
+    text-align: center;    
+}
+
+.fairValue .card-body .price h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #1E1B39;
+}
+
+.fairValue .Undervalued {
+    position: absolute;
+    left: 13%;
+    bottom: 4%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.fairValue .Overvalued {
+    position: absolute;
+    right: 13%;
+    bottom: 4%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+}

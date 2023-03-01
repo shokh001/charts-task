@@ -1,0 +1,100 @@
+.finranksScore {
+    padding: 30px 25px;
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    width: 100%;
+}
+
+.finranksScore .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.finranksScore .card-header h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: var(--head-color);
+}
+
+.finranksScore .card-body_head h2 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: var(--head-color);
+    margin-bottom: 10px;
+}
+
+.finranksScore .card-body_head .head-bar {
+    background: #F7F8FA;
+    border-radius: 3px;
+    width: 100%;
+    height: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.finranksScore .card-body_head .head-bar .after {
+    background: #3CDA73;
+    border-radius: 3px;
+    width: 77%;
+    height: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.finranksScore .card-body ul {
+    list-style: none;
+}
+
+.finranksScore .card-body ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.finranksScore .card-body .card-body_head-left {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    flex: 1;
+}
+.finranksScore .card-body .card-body_head-right {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.finranksScore .card-body .card-body_head-right .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #006B3D;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #54527E;
+}
+
+.finranksScore .card-body .card-body_head-right .body-bar {
+    width: 100%;
+    height: 10px;
+    background: #F7F8FA;
+    border-radius: 0 2px 2px 0;
+    position: relative;
+}
+
+.finranksScore .card-body .card-body_head-right .body-bar .after {
+    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 10px;
+    border-radius: 0 2px 2px 0;
+}
